@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimarket</title>
+  <!-- Custon file css -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="menu container">
+      <a href="#" class="logo">J code</a>
+      <input type="checkbox" id="menu">
+      <label for="menu">
+        <img class="menu-icono" src="/assets/img/menu.png" alt="">
+      </label>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <ul>
+          <li class="submenu">
+
+            <img src="/assets/img/car.svg" id="img-carrito" alt="">
+
+            <div id="carrito">
+              <table id="lista-carrito">
+                <thead>
+                  <tr>
+                    <th>Imagem</th>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                  </tr>
+                </thead>
+
+                <tbody></tbody>
+              </table> <!-- Fim lista Carrinho -->
+
+              <a href="#" id="vaciar-carrito" class="btn-2">Limpar Carrinho</a>
+            </div>
+          </li> <!-- Fim sub menu-->
+        </ul>
+      </div>
+    </div> <!-- Fim menu container-->
+
+    <div class="header-content container">
+      <div class="header-txt">
+        <span>Ofertas</span>
+        <h1>Frutas e Verduras</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis autem ab itaque, quam cupiditate ex fugiat doloribus repudiandae accusamus non ducimus voluptatem ipsum dolorum molestiae laborum ullam omnis sunt excepturi?</p>
+        <a href="#" class="btn-1">Informação</a>
+      </div>
+
+      <div class="header-img">
+        <img src="/assets/img/rigth.png" alt="imagem verduras">
+      </div>
+    </div> <!-- Fim header conteudo -->
+  </header> <!-- fim header -->
+
+  <section class="information container">
+    <div class="information-content">
+      <div class="information-1">
+        <img src="/assets/img/i1.svg" alt="">
+        <h3>Lorem ipsum</h3>
+        <p>Voluptamun Blanditiis repellendus.</p>
+      </div>
+
+      <div class="information-1">
+        <img src="/assets/img/i2.svg" alt="">
+        <h3>Lorem ipsum</h3>
+        <p>Voluptamun Blanditiis repellendus.</p>
+      </div>
+
+      <div class="information-1">
+        <img src="/assets/img/i3.svg" alt="">
+        <h3>Lorem ipsum</h3>
+        <p>Voluptamun Blanditiis repellendus.</p>
+      </div>
+    </div>
+  </section> <!-- Fim conteudo informação -->
+
+  <section class="oferts container">
+    <div class="ofert-1">
+      <img src="/assets/img/f1.png" alt="produto">
+      <h3>Oferta</h3>
+      <p>Premium</p>
+    </div>
+
+    <div class="ofert-1">
+      <img src="/assets/img/f2.png" alt="produto">
+      <h3>Oferta</h3>
+      <p>Premium</p>
+    </div>
+
+    <div class="ofert-1">
+      <img src="/assets/img/f3.png" alt="produto">
+      <h3>Oferta</h3>
+      <p>Premium</p>
+    </div>
+
+    <div class="ofert-1">
+      <img src="/assets/img/f4.png" alt="produto">
+      <h3>Oferta</h3>
+      <p>Premium</p>
+    </div>
+  </section> <!-- Fim comteudo ofertas-->
+
+  <main class="products container" id="lista-1">
+    <h2>Produtos em destaque</h2>
+
+    <div class="product-content">
+
+      <div class="product">
+        <img src="/assets/img/pr1.png" alt="maçã">
+        <div class="product-txt">
+          <h3>Maçã</h3>
+          <p class="precio">$15.00</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="1">Adicionar</a>
+        </div>
+      </div> <!-- Fim produto-->
+
+      <div class="product">
+        <img src="/assets/img/pr2.png" alt="Laranja">
+        <div class="product-txt">
+          <h3>Laranja</h3>
+          <p class="precio">$15.00</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="2">Adicionar</a>
+        </div>
+      </div> <!-- Fim produto-->
+
+      <div class="product">
+        <img src="/assets/img/pr3.png" alt="Mirtilo">
+        <div class="product-txt">
+          <h3>Mirtilo</h3>
+          <p class="precio">$15.00</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="3">Adicionar</a>
+        </div>
+      </div> <!-- Fim produto-->
+
+      <div class="product">
+        <img src="/assets/img/pr4.png" alt="Amoras">
+        <div class="product-txt">
+          <h3>Amoras</h3>
+          <p class="precio">$15.00</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="4">Adicionar</a>
+        </div>
+      </div> <!-- Fim produto-->
+
+      <div class="product">
+        <img src="/assets/img/pr5.png" alt="Morango">
+        <div class="product-txt">
+          <h3>Morango</h3>
+          <p class="precio">$15.00</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="5">Adicionar</a>
+        </div>
+      </div> <!-- Fim produto-->
+
+      <div class="product">
+        <img src="/assets/img/pr6.png" alt="Banana">
+        <div class="product-txt">
+          <h3>Banana</h3>
+          <p class="precio">$15.00</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="6">Adicionar</a>
+        </div>
+      </div> <!-- Fim produto-->
+
+      <div class="product">
+        <img src="/assets/img/pr7.png" alt="Hambúrgueres">
+        <div class="product-txt">
+          <h3>Hambúrgueres</h3>
+          <p class="precio">$15.00</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="7">Adicionar</a>
+        </div>
+      </div> <!-- Fim produto-->
+
+      <div class="product">
+        <img src="/assets/img/pr8.png" alt="Espinafre">
+        <div class="product-txt">
+          <h3>Espinafre</h3>
+          <p class="precio">$15.00</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="8">Adicionar</a>
+        </div>
+      </div><!-- Fim produto-->
+    </div> <!-- Fim conteudo produtos-->
+  </main>
+
+  <section class="service">
+    <div class=" service-1">
+      <img class="store" src="/assets/img/1.png" alt="fruta">
+    </div>
+
+    <div class="service-2">
+      <img class="store" src="/assets/img/2.png" alt="verduras">
+    </div>
+
+    <div class="service-3">
+      <img class="store" src="/assets/img/3.png" alt="fruta">
+    </div>
+  </section> <!-- Fim conteudo service -->
+
+  <section class="contact">
+    <form>
+      <input type="email" placeholder="e-mail">
+      <input type="submit" value="Enviar" class="btn-3">
+    </form>
+  </section> <!-- fim contato-->
+
+  <footer class="footer">
+    <div class="footer-content container">
+      <div class="link">
+        <h3>Lorem ipsum</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="link">
+        <h3>Lorem ipsum</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="link">
+        <h3>Lorem ipsum</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="link">
+        <h3>Lorem ipsum</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
